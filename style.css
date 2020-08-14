@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
 h1 {
     font-family: 'Dancing Script', cursive;
 }
+
+.container {
+    width: auto;
+    position: relative;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+/* Mobile Resposive */
+@media (max-width: 786px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .img {
+        width:400px !important;
+        height: 300px !important;
+    }
+}
+
+/* Working with the navigation  */
