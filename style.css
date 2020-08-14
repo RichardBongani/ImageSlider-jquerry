@@ -4,6 +4,10 @@
     border: 0px;
 }
 
+body {
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+}
+
 h1 {
     font-family: 'Dancing Script', cursive;
 }
@@ -16,6 +20,10 @@ h1 {
 .imgs {
     display: flex;
     justify-content: center;
+}
+
+.nav-item {
+    margin-left: 10px;
 }
 
 /* Mobile Resposive */

@@ -14,10 +14,27 @@
     
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">JQuery Image Slider</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="nav">
+            <li class="nav-item">
+              <a class="nav-link btn btn-success text-white" id="next" href="#">NEXT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-success text-white" id="prev" href="#">PREVIOUS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <!-- -------First slider Image------ -->
-    <div class="container">
-        <h1 class="text-center">My MotorSpots toys</h1>
-        <div class="imgs">
+    <div class="container mt-5">
+        <h1 class="text-center text-white">My MotorSpots toys</h1>
+        <div class="imgs mt-3">
         <div class="slider">
             <img src="images/motor1.jpg" width="640" height="426" alt="motorbike" class="img">
             <img src="images/motor2.jpg" width="640" height="426" alt="motorbike" class="img">
@@ -26,10 +43,7 @@
             <img src="images/motor5.jpg" width="640" height="426" alt="motorbike" class="img">
         </div>
         </div>
-        <ul id="nav">
-            <li id="prev"><a href="#">Previous</a></li>
-            <li id="next"><a href="#">Next</a></li>
-        </ul>
+    </div>
     </div>
     <script src="application.js"></script>
 </body>
