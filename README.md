@@ -1,1 +1,1 @@
-# ImageSlider-jquerry
+# ImageSlider-jquery
